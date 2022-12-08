@@ -206,6 +206,8 @@ h3{
 }
 #margins
 {
+    margin-top: 10%;
+    font-size: larger;
     font-weight: bolder;
     color: #000;
 }
@@ -217,6 +219,50 @@ h3{
 /* Start of SignIn and Sign UP CSS */
 #card_margins
 {
-    margin: 5%;
+    border-radius: 6%;
+    height: 500px;
+    width: 50%;
+    margin: 10% 10% 10% 27%;
+}
+#card_margins1
+{
+    border-radius: 6%;
+    height: 100%;
+    width: 65%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+#signInFrom{
+    margin-top: 15%;
+}
+#name
+{
+    border-color: #000;
+    border-radius: 6%;;
+    margin-left: 8%;
+}
+#email{
+    border-color: #000;
+    border-radius: 6%;;
+    margin-left: 10%;
+}
+#password{
+    border-color: #000;
+    border-radius: 6%;;
+    margin-left: 6%;
+}
+#confirmPass{
+    border-color: #000;
+    border-radius: 6%;;
+    margin-left: 2%;
+}
+#submit
+
+    {height: 90%;
+    width: 110px;
+    color: #ffc304;
+    background-color: black;
 }
 /* End of SignIn and Sign UP CSS */

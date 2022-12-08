@@ -35,7 +35,7 @@
     <!-- Navigation Bar Section -->
     <nav class="navbar navbar-expand-lg bg-warning navbar-light">
         <img id="navlogo" src="code/frontend/images/logo.png" />
-        <a href="#" class="navbar-brand" >Surveillance System</a>
+        <a href="index.html" class="navbar-brand" >Surveillance System</a>
         <div class="container">
             <button 
                 class="navbar-toggler text-light"
@@ -48,16 +48,20 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#sec2" class="nav-link">What you'll get</a>
+                        <a href="index.html#sec2" class="nav-link">What you'll get</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#sec3" class="nav-link">About Us</a>
+                        <a href="index.html#sec3" class="nav-link">About Us</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#sec4" class="nav-link">Privacy</a>
-                    </li> 
+                        <a href="index.html#sec4" class="nav-link">Privacy</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#sec5" class="nav-link">Contact Us</a>
+                    </li>
                 </ul>
             </div>
         </div>    
@@ -67,7 +71,27 @@
     <!-- Start od Sign int Box Sextion-->
     <section>
         <div class="card p-5 bg-warning text-center" id="card_margins">
-           <h3  id="txt">Sign In</h3>
+           <h3 me-5 id="txt">Sign In To Surveillance System</h3>
+           <div class="card-body">
+            <form id="signInFrom" action="#">
+
+                <p id="margins">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Kamran@xyz.com" required>
+                </p>
+
+                <p id="margins">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </p>
+
+                <p id="margins">
+                    <input type="submit" id="submit" value="Sign-In">
+                </p>
+
+            </form>
+            <p id="margins">Don't have an account? <a href="signup.html">Signup</a></p>
+            </div>
         </div>
     </section>
     <!-- End of Sign in Box Section -->
