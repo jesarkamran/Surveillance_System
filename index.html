@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="code/frontend/external_libraries/flaticon/font/flaticon.css" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
@@ -83,9 +88,14 @@
                     <h4 id="headingsec2">Get Started by </h4>
                 </div>
             </div>
-            <div class="d-sm-flex">
-                <button class="btn" id="button1">Sign Up</button>
-                <button class="btn" id="button2">Sign In</button>
+            <div class="d-sm-flex" id="marg">
+                <a href="/signup.html">
+                    <button class="btn" id="button1">Sign Up</button>
+                </a>
+
+                <a href="/signin.html">
+                    <button class="btn" id="button2">Sign In</button>
+                </a>
             </div>
         </section>
         <!-- End of Suggestion for Sign In and Sign Up -->
@@ -243,32 +253,51 @@
                 a starting point when writing your own.</p>
         </div>
     </section>
-    <!-- End of Card Section -->
-
-    <!-- Start of Contact Us Section -->
-    <section class="bg-warning" id="sec5" >
-        <div class="text-center p-3">
-            <h3 id="headingsec5">Contact US</h3>
-            <div class="d-sm-flex text-lg-center text-sm-start" id="icons">    
-                <div class="card  text-light" id="icon_card1">
-                    <a href="#" class="nav-link text-light" id="icon_text" >in</a>
+   
+    <!-- Footer Section Start -->
+    <section  class="bg-warning" id="sec5">
+        <div id="contact_section" class="footer_section p-5 container-fluid  justify-content-center">
+            <h3 id="headingsec5">Contact Us</h3>                 
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6" id="location">
+                        <h3 class="mb-4" id="margins">Get In Touch</h3>
+                        <p class="mb-2" id="txt"><i class="bi bi-geo-alt me-2" id="txt"></i>Park Road, Islamabad Capital, Pakistan</p>
+                        <p class="mb-2" id="txt"><i class="bi bi-envelope-open me-2" id="txt"></i>jesarkamran@gmail.com</p>
+                        <p class="mb-0" id="txt"><i class="bi bi-telephone me-2" id="txt"></i>+923442136564</p>
+                    </div>
+                    <div class=" col-lg-3 col-md-6">
+                        <h3 class="mb-4" id="txt">Follow Us</h3>
+                        <div class="d-flex">
+                            <a class="btn btn-lg bg_button btn-lg-square rounded me-2" href="https://twitter.com/jesarkamran"><i class="fab fa-twitter text-light"></i></a>
+                            <a class="btn btn-lg bg_button btn-lg-square rounded me-2" href="https://www.facebook.com/jesarkamran"><i class="fab fa-facebook-f text-light" ></i></a>
+                            <a class="btn btn-lg bg_button btn-lg-square rounded me-2" href="https://www.linkedin.com/in/jesarkamran/"><i class="fab fa-linkedin-in text-light"></i></a>
+                            <a class="btn btn-lg bg_button btn-lg-square rounded" href="https://github.com/jesarkamran"><i class="fab fa-github text-light"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 justify-content-center">
+                        <form class="mx-auto" style="max-width: 600px;">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                                <button class="btn bg_button text-warning px-4">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-
-                <div class="card  text-light" id="icon_card2">
-                    <a href="#" class="nav-link" id="icon_text1" >G</a>
-                </div>
-
-                <div class="card  text-light" id="icon_card3">
-                    <a href="#" class="nav-link" id="icon_text" >
-                        <img src="code/frontend/images/github.png" alt="github_logo" id="github">
-                    </a>
-                </div>
-
             </div>
-        </div>   
+        </div>
+        <div class="container-fluid bg_button text-warning py-4">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class=" mb-md-0">&copy; <a class="text-warning" href="https://github.com/jesarkamran" target="_blank">Kamran Jesar </a> has all Rights Reserved.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- End of Contact Us Section -->
-
+    <!-- Footer Section End -->
 </body>
 <!-- End of Body Tag -->
 

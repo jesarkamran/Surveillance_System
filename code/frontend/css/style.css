@@ -84,23 +84,24 @@ h3{
     font-family:Verdana !important;
     margin-bottom: 5%;
 }
-
+#marg{
+    margin-left: 40%;
+}
 #button1
 {
-    margin-top: 0.5%;
-    margin-left: 38%;
-    height: 20%;
-    width: 12%;
+    margin-top: 2%;
+    height: 90%;
+    width: 110px;
     color: #ffc304;
     background-color: black;
 
 }
 #button2
 {
-    margin-top: 0.5%;
-    margin-left: 2%;
-    height: 100%;
-    width: 12%;
+    margin-top: 2%;
+    margin-left: 14%;
+    height: 90%;
+    width: 110px;
     color: #ffc304;
     background-color: black;
 }
@@ -180,57 +181,42 @@ h3{
 /* START OF SECTION 5 CSS */
 #sec5
 {
-    border-radius: 16% 16% 0 0%;
-    margin-top: 5%;
+    border-radius: 10% 10% 0 0%;
     padding-bottom: 5%;
 }
 #headingsec5
 {
-    font-size: x-large;
-    font-weight: bold;
+    margin-left: 43%;
+    font-size: xx-large;
+    font-weight: bolder;
     color: black;
 }
-#icons{
-    padding: 1% 0% 0% 5%;
-}
-#icon_card1
+.bg_button
 {
-    margin-left: 38%;
-    border-radius: 50%;
-    height: 5%;
-    width: 5%;
-    background-color: #005782;
-}
-#icon_card2
-{
-    margin-left: 2%;
-    border-radius: 50%;
-    height: 5%;
-    width: 5%;
-    background-color: #fff;
-}
-#github{
-    border-radius: 50%;
-    width: 40px;
-}
-#icon_card3
-{
-    margin-left: 2%;
-    border-radius: 50%;
-    height: 20%;
-    width: 5%;
     background-color: #000;
 }
-#icon_text{
-    font-size: xx-large;
-    font-family: sans-serif;
-    font-weight: 700;
+#contact_section
+{
+    color: #000;
 }
-#icon_text1{
-    color: red;
-    font-size: xx-large;
-    font-family:   Arial, Helvetica, sans-serif;
-    font-weight: 700;
+#txt
+{
+    font-weight: bold;
+    color: #000;
+}
+#margins
+{
     font-weight: bolder;
+    color: #000;
+}
+#location{
+    margin-left: 30%;
 }
 /* END OF SECTION 5 CSS */
+
+/* Start of SignIn and Sign UP CSS */
+#card_margins
+{
+    margin: 5%;
+}
+/* End of SignIn and Sign UP CSS */
